@@ -7,14 +7,14 @@ pipeline {
         git 'https://github.com/nagasatishaws/nodejs-server.git'
       }
     }
-    stage('Build') {
+    stage('npm install') {
        steps {
          sh 'npm install'
        }
     }
-    stage('Test') {
+    stage('build') {
       steps {
-        sh 'npm test'
+        sh 'npm run build'
       }
     }
   }
