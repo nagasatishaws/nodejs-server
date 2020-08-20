@@ -1,8 +1,8 @@
 {
  "app":[{
-  "name":"server-8989",
-  "script":"./server.js",
-  "watch" : ./src/",
-  "log_date_format":"yyyy-mm-d HH:MMZ"
+  "name"  : "server-8989",
+  "script": "./server.js",
+  "watch" : "./src/",
+  "log_date_format" : "yyyy-mm-d HH:MMZ"
   }]
   }
